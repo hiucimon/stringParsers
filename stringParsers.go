@@ -2,6 +2,10 @@ package stringParsers
 
 import "strings"
 
-func splitOptions(s string) []string {
+func SplitOptions(s string) []string {
 	return strings.Split(s, " ")
+}
+
+func bracket(s string) string {
+	return "-->" + s + "<--"
 }
